@@ -4,11 +4,11 @@ const campoTexto = document.querySelector("#textoIntroducido");
 const resultado =document.querySelector("#resultado");
 
 const matriz = [
-  ["e", "enter"],
-  ["i", "imes"],
-  ["a", "ai"],
-  ["o", "ober"],
-  ["u", "ufat"],
+  ["e", "enter",
+  "i", "imes",
+  "a", "ai",
+  "o", "ober",
+  "u", "ufat",]
 ];
 
 
