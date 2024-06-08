@@ -5,6 +5,7 @@
     <title>Encriptador de Texto</title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -14,17 +15,18 @@
     <main>
         <section class="text-section">
             <label for="textoIntroducido"></label>
-            <textarea id="textoIntroducido" class="campoTexto" placeholder="Ingrese su texto aqui:" required maxlength="300"></textarea>
+            <textarea id="textoIntroducido" class="campoTexto" placeholder="Ingrese su texto aquí:" required maxlength="300"></textarea>
             <div class="botones">
-                <button class="botonE" onclick="botonE()">Encriptar</button>
-                <button class="botonD" onclick="botonD()">Desencriptar</button>
+                <button class="boton botonE" onclick="botonE()">Encriptar</button>
+                <button class="boton botonD" onclick="botonD()">Desencriptar</button>
             </div>
+            <p id="error-message" class="error-message"></p>
         </section>
         <section class="result-section">
             <label for="resultado"></label>
             <textarea id="resultado" class="resultado" placeholder="Resultado:" readonly></textarea>
             <div class="botones">
-                <button class="botonC" onclick="botonC()">Copiar</button>
+                <button class="boton botonC" onclick="botonC()">Copiar</button>
             </div>
         </section>
     </main>
